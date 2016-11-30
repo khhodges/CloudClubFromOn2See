@@ -1,0 +1,181 @@
+/*#kendoUiMobileApp*/ 
+.image-with-text img {
+    float: left;
+    margin-right: 15px;
+}
+
+.block {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.button-group,
+.icon-group {
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+.button-group {
+    table-layout: fixed;
+}
+
+.button-group .km-button {
+    display: table-cell;
+    padding: .6em .8em;
+    margin: 1em 0;
+}
+
+.button-group.button-group-vertical .km-button {
+    display: block;
+}
+
+.group-separator {
+    border: none;
+    background: transparent;
+}
+
+.group-separator-header {
+    margin: 1em 0;
+}
+
+.app-icon {
+    text-align: center;
+    margin: 3em 0;
+}
+
+.view-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+.km-drawer-button:after,
+.km-drawer-button:before {
+    content: '\e077';
+}
+
+.km-flash-button:after,
+.km-flash-button:before {
+    content: '\e0c1';
+}
+
+.km-partners-button:after,
+.km-partners-button:before {
+    content: '\e077';
+}
+
+form .form-content li p {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-group .app-icon,
+.icon-group .app-details {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.icon-group .app-icon {
+    margin: 0;
+    width: 5em;
+    overflow: hidden;
+    text-align: left;
+}
+
+.icon-group .app-icon img {
+    display: block;
+    max-width: 5em;
+    height: auto;
+}
+
+.icon-group .app-details h2,
+.icon-group .app-details h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.icon-group .app-details h4 {
+    color: #828282;
+    margin-top: 0.5em;
+}
+
+#navigation-container.km-tabstrip .km-button .km-text {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.unsupported-preview {
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.info-icon {
+    margin: 0 auto;
+    width: 3.3rem;
+    height: 3.3rem;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABIklEQVRoge3YMU4CURDG8R+KqImGxNoTWNgYqSgtvYBn8EY2nkE7LTwItbGUwhgLFSxgLTS4i4w+SOafTDc73/vydva9HZIkSZIlooNrPM6IK2wUW10DehjXRC9ScC2ymMkOROQ0JtrAv5MGvjAKyinGLgZmN/AAO5GCrchiU9rY9313R7jH2x9oJslvieqBU5z5+Zowwh0ugjTD6OBF/RWiioNI8YhzYBtbc+TvBWh+kiexwt/1CAPPuMR7QK3i9NU3cT9SMHugNGmgNGmgNCtvYD2ozjHOcYLDmtxNHOEJD0H6C9HGUPPbaBXD6bPF6Zp/8VV0FxVf+R6IMLDInGdpZkS35n99biKEo/6JWyazoKaj81eTGdE4SD9JkiRJVpMPXjloDVm2S04AAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+}
+
+.editableListItem span {
+    float: left;
+}
+
+.km-content .details-content .editableListItem {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.km-content .details-content p,
+#kendoUiMobileApp.km-nova .km-content .details-content h3 {
+    padding: 1rem;
+    margin: 0;
+}
+
+.km-content .details-content .editableListItem:first-of-type {
+    border-top: 0;
+}
+
+.details-content .editableListItem + .editableListItem {
+    border-top: 0;
+}
+
+.km-content li label:not(.km-label-above) > span:not(.km-widget),
+.editableListItem > span {
+    display: inline-block;
+    word-break: break-word;
+    width: 45%;
+    padding-right: 10px;
+}
+
+.km-content li p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.editableListItem {
+    overflow: hidden;
+    width: 100%;
+}
+
+#kendoUiMobileApp.km-ios7 .button-group .km-button.primary {
+    color: #fff;
+    background-color: #007aff;
+}
+
+#kendoUiMobileApp.km-android .button-group .km-button.primary {
+    color: #fff;
+    background-color: #33b5e5;
+}
+
+
+/* START_CUSTOM_CODE_kendoUiMobileApp */
+
+
+/* Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes */
+
+
+/* END_CUSTOM_CODE_kendoUiMobileApp */

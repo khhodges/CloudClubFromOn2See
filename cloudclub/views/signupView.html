@@ -1,0 +1,51 @@
+<div data-role="view" id="signup" data-layout="default" class="signup-view" data-model="app.Signup" data-init="app.Signup.init" data-show="app.Signup.show" data-hide="app.Signup.hide">
+    <div data-role="header">
+        <div data-role="navbar">
+            Settings
+            <a data-role="backbutton" data-align="left">Back</a>
+
+           <!--<a data-role="button" href="#appDrawer" data-rel="drawer" data-align="left" data-icon="drawer-button" ></a>--> 
+			<a class="nav-button" data-align="right" data-role="button" href="#welcome">Logon</a>
+        </div>
+    </div>
+    <table align="center">
+        <tr>
+            <td>
+                <div id="collapsible" data-style="inset" data-role="collapsible" data-animation="false">
+                    <h2 data-style="inset">Club Notes</h2>
+                    <p>Add your home Zip Code to register for notifications and use location services while on the move. See local activities and local discounts with what others say. Join or start a conversation about local business concern. Find offers, contact school, provide feedback, order ahead, get reminded, see confirmations, avoid delay and busy times, earn discounts and never miss an events. Manage your time and review your activities whenever and wherever you want. As a community, content and usage is a shared responsibility that cannot be guatanteed by any single party.</p>
+                    <p>                    <input type="checkbox" id="approve" value="true" required>I agree.<p/>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <form id="signUp">
+        <ul id="signup-form" data-role="listview" data-style="inset">
+            <li>
+                <input type="text" id="signupName" data-bind="value: DisplayName" placeholder="Full Name" required>
+            </li>
+            <li>
+                <input type="email" id="signupEmail" data-bind="value: Email" placeholder="email" required>
+            </li>
+            <li>
+                <input type="text" id="signupEmail" data-bind="value: ZipCode" placeholder="zipcode">
+            </li>
+            <li>
+                <input type="text" id="signupUsername" data-bind="value: Username" placeholder="username" required>
+            </li>
+            <li>
+                <input type="password" id="signupPassword" data-bind="value: Password" placeholder="password" required>
+            </li>
+        </ul>
+    </form>
+    <div id="signupBtnWrp" class="signup-btn-wrp disabled">
+        <a class="btn btn-signup" data-role="button" data-bind="click: signup">Register</a>
+    </div>
+    <table align="center">
+        <tr>
+            <td><br/>                
+                <a href="mailto:support@on2t.com?Subject=Registration" target="_top"><b>Contact Cloud Club</b></a>
+            </td>
+        </tr>
+    </table>
+</div>
